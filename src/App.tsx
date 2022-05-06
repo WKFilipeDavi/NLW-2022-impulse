@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Widget } from './components/widget';
+import { Widget } from './components/Widget';
 
 interface ButtonProps {
   text: String;
@@ -12,11 +12,8 @@ function Button(props: ButtonProps) {
 function App() {
   return (
     <div>
-       <h1>Hello NLW World</h1>
-       <Button text='botãozinho' />
-       <h1 className="text-3xl font-bold underline text-purple-600">
-        Hello Tailwind world!
-      </h1>
+    <h1 className="text-orange-600">teste</h1>
+    <Widget />
     </div>
   )
 }
